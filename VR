@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VR World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header__container">
+            <h1 class="header__title">Welcome to VR World</h1>
+            <nav class="header__nav">
+                <ul class="header__menu">
+                    <li class="header__menu-item"><a href="#" class="header__menu-link">Home</a></li>
+                    <li class="header__menu-item"><a href="#" class="header__menu-link">About</a></li>
+                    <li class="header__menu-item"><a href="#" class="header__menu-link">Gallery</a></li>
+                    <li class="header__menu-item"><a href="#" class="header__menu-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <section class="intro">
+            <div class="intro__container">
+                <h2 class="intro__title">Discover the World of Virtual Reality</h2>
+                <p class="intro__text">Experience new dimensions and explore virtual environments like never before.</p>
+                <button class="intro__button">Learn More</button>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="features__container">
+                <h2 class="features__title">Features</h2>
+                <div class="features__list">
+                    <div class="features__item">
+                        <h3 class="features__item-title">Immersive Experiences</h3>
+                        <p class="features__item-text">Step into another world with cutting-edge VR technology.</p>
+                    </div>
+                    <div class="features__item">
+                        <h3 class="features__item-title">Realistic Graphics</h3>
+                        <p class="features__item-text">Enjoy stunning visuals with lifelike details.</p>
+                    </div>
+                    <div class="features__item">
+                        <h3 class="features__item-title">Interactive Environments</h3>
+                        <p class="features__item-text">Engage with virtual worlds in ways you've never imagined.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container">
+            <p class="footer__text">© 2024 VR World. All Rights Reserved.</p>
+            <ul class="footer__socials">
+                <li class="footer__socials-item"><a href="#" class="footer__socials-link">Facebook</a></li>
+                <li class="footer__socials-item"><a href="#" class="footer__socials-link">Twitter</a></li>
+                <li class="footer__socials-item"><a href="#" class="footer__socials-link">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
